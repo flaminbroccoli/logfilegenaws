@@ -8,6 +8,6 @@ This a fork of the original [LogFileGenerator repo](https://github.com/0x1DOCD00
 ## Summary of changes
 1. logback_test.xml: Added -mm to filePatter nto generate logs by the minute
 2. application.conf: Added info to store S3 bucket name and region. Credentials
-will be taken from local machine.
+will be taken from local machine/EC2 instance.
 3. GenerateLogData.scala: Built a Transfer manager and uploaded the files upon
 completion of generation.
